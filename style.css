@@ -1,0 +1,420 @@
+@font-face {
+    font-family: 'cafe';
+    src: url(./Polices/cafe\ brewery.ttf);
+}
+@font-face {
+    font-family: 'cafe-bold';
+    src: url(./Polices/cafe\ brewery\ bold.ttf);
+}
+@font-face {
+    font-family: 'blasco';
+    src: url(./Polices/aAblasco.ttf);
+}
+@font-face {
+    font-family: 'Rabello';
+    src: url(./Polices/Rabelo\ Regular.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-family: 'cafe-bold';
+}
+
+nav li img {
+    width: 25px;
+    margin-top: ;
+}
+
+
+nav ul  {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+nav ul li {
+    list-style: none;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.ide-2 {
+   margin-left: 40%;
+
+}
+span {
+    display: flex;
+    margin-top: 95px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'roboto';
+}
+ span img , h4 {
+    margin-left: 5px;
+ }
+
+span img {
+    width: 15px;
+    height: 18px;
+    
+}
+
+.photo img {
+    width: 85%;
+    position: absolute;
+    transform: translate(-50%,19%);
+}
+.photo {
+    float: right;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    right: 150px;
+    border: 2px solid black;
+    border-radius: 80px/70px;
+    box-shadow: -10px 20px rgb(21, 17, 17);
+    height: 505px;
+    width: 200px;
+   
+}
+
+
+
+.hello {
+    float: left;
+    padding-right: 150px;
+    padding-left: 150px;
+    animation-name: apparition;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+}
+
+.hello h2 {
+    font-size: 52px;
+    padding-bottom: 50px;
+    font-family: 'Rabello';
+}
+
+.hello p {
+    font-size: 26px;
+    font-family: 'Arial';
+    opacity: 0.8;
+}
+
+.say-hello {
+    display: flex;
+    margin-top: 85px;
+}
+
+.say-hello .say-1, .say-2 {
+    margin-left: 15px;
+}
+
+.say-hello a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.say-hello img {
+    width: 18px;
+}
+
+.text {
+    margin-top: 650px;
+    margin-left: 145px;
+    font-size: 20px;
+    font-family: 'roboto';
+}
+
+.text p {
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: 28px;
+}
+
+
+section {
+    clear: both;
+}
+
+img {
+    width: 40px;
+}
+
+article img {
+    width: 22%;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.tof-1 {
+    display: flex;
+    margin-top: 95px;
+}
+
+.tof-1-cote {
+    font-size: 25px;
+    transform: translateX(120px);
+    margin-top: -108px;
+}
+
+
+
+.tof-1-cote span {
+        position: relative;
+        top: 8px;
+        left: -135px;
+}
+
+.footer-design {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+li {
+    list-style: none;
+}
+
+footer ul {
+    margin-top: 79px;
+    margin-right: 180px;
+}
+
+
+footer ul img {
+    width: 5%;
+}
+
+footer ul li a {
+    font-size: 20px;
+}
+
+footer ul li a {
+      color: black;
+}
+
+.copyright {
+    margin-top: 65px;
+    margin-left: 145px;
+    margin-bottom: 52px;
+    font-family: 'Arial-light';
+    font-size: 20px;
+}
+
+
+
+
+
+@media screen and (max-width:960px){
+    body {
+        width: auto;
+        height: auto;
+    }
+    nav {
+        width: auto;
+    }
+    main span {
+        margin-bottom: 100px;
+    }
+
+    .photo {
+        width: 20%;
+        margin-top: 45rem;
+        margin-left: -470px;
+        
+    }
+
+    .text {
+        width: 400px;
+    }
+
+    .say-hello {
+        margin-bottom: 80px;
+    }
+
+    .tof-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tof-1 img {
+        width: 50%;
+    }
+
+    .tof-1-cote {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+   
+   .say-1 {
+    margin-right: 20px;
+   }
+
+   .copyright {
+    margin-left: 5px;
+   }
+}
+
+@media screen and (max-width:648px) {
+
+    
+    nav {
+        width: 540px;
+        
+    }
+    
+
+
+    .hello p {
+        margin-bottom: 400px;
+        width: 300px;
+        font-size: 27px;
+        margin-left: -40px;
+    }
+
+    
+
+    main .say-hello  {
+        margin-top: -350px;
+    }
+
+  .photo  {
+    width: 10%;
+    margin-right: -30px;
+    border-radius: 80px;
+    margin-top: 830px;
+  }
+
+  .photo img {
+    width: 105%;
+    margin-top: 77px;
+  }
+
+
+  main span {
+    margin-left:45px;
+    font-size: 25px;
+  }
+
+  .text {
+    width: 300px;
+    margin-left: 130px;
+    font-size: 24px;
+  }
+
+  .tof-1 {
+    margin-top: 150px;
+  }
+
+  .tof-1 img {
+    width: 65%;
+  }
+
+  .tof-1-cote span {
+    font-size: 25px;
+  }
+
+  .tof-1 h4 {
+    font-size: 38px;
+  }
+
+  .tof-1 p {
+    font-size: 28px;
+  }
+
+  .footer-design {
+    width: 550px;
+  }
+
+  .copyright {
+    font-size: 26px;
+  }
+
+}
+
+@media  screen and (max-width:512px) {
+    .photo {
+        margin-right: -4rem;
+        margin-top:810px;
+    }
+
+    article {
+        margin-left: -20px;
+        font-size: 20px;
+    }
+
+    .tof-1 img {
+        width: 40%;
+        position: relative;
+       
+    }
+
+    .say-hello {
+        width: -150px;
+        position: relative;
+        left: -100px;
+    }
+
+    .say-hello a {
+        font-size: 15px;
+    }
+
+    footer .say-1 {
+       position: absolute;
+       left: -150px;
+       
+    }
+   
+
+    footer .say-2 {
+        position: absolute;
+        left: -50px;
+    }
+    
+
+    .text {
+        font-size: 20px;
+    }
+
+    main .say-hello {
+        margin-left: 50px;
+    }
+
+    .ide-2 a{
+        display: none;
+    }
+
+}
